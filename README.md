@@ -65,7 +65,7 @@ mkdir -p ~/.var/app/app.zen_browser.zen/.zen/<your-profile>/chrome
 path = "https://github.com/GooseRooster/base16-tinted-zen"
 name = "base16-tinted-zen"
 themes-dir = "output"
-hook = "cp \"$TINTY_THEME_FILE_PATH\" ~/.zen/$(ls ~/.zen | grep -i 'Default' | head -1)/chrome/userChrome.css"
+hook = "cp \"$TINTY_THEME_FILE_PATH\" \"$HOME/.zen/$(ls ~/.zen | grep -i 'Default' | head -1)/chrome/userChrome.css\""
 supported-systems = ["base16"]
 ```
 
@@ -76,7 +76,7 @@ supported-systems = ["base16"]
 path = "https://github.com/GooseRooster/base16-tinted-zen"
 name = "base16-tinted-zen"
 themes-dir = "output"
-hook = "cp \"$TINTY_THEME_FILE_PATH\" ~/.var/app/app.zen_browser.zen/.zen/$(ls ~/.var/app/app.zen_browser.zen/.zen | grep -i 'Default' | head -1)/chrome/userChrome.css"
+hook = "cp \"$TINTY_THEME_FILE_PATH\" \"$HOME/.var/app/app.zen_browser.zen/.zen/$(ls ~/.var/app/app.zen_browser.zen/.zen | grep -i 'Default' | head -1)/chrome/userChrome.css\""
 supported-systems = ["base16"]
 ```
 
