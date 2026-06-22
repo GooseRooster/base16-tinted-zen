@@ -49,21 +49,38 @@ toolkit.legacyUserProfileCustomizations.stylesheets = true
 Find your profile folder via `about:profiles` → **Open Folder** for your active profile, then:
 
 ```sh
+# Standard install
 mkdir -p ~/.zen/<your-profile>/chrome
+
+# Flatpak install
+mkdir -p ~/.var/app/app.zen_browser.zen/.zen/<your-profile>/chrome
 ```
 
 ### 3. Add to your tinty `config.toml`
+
+**Standard install:**
 
 ```toml
 [[items]]
 path = "https://github.com/GooseRooster/base16-tinted-zen"
 name = "base16-tinted-zen"
 themes-dir = "output"
-hook = "cp \"$TINTY_THEME_FILE_PATH\" ~/.zen/$(ls ~/.zen | grep '\\.default' | head -1)/chrome/userChrome.css"
+hook = "cp \"$TINTY_THEME_FILE_PATH\" ~/.zen/$(ls ~/.zen | grep -i 'Default' | head -1)/chrome/userChrome.css"
 supported-systems = ["base16"]
 ```
 
-Adjust the profile path in the hook to match your profile directory name (check `about:profiles` if unsure).
+**Flatpak install:**
+
+```toml
+[[items]]
+path = "https://github.com/GooseRooster/base16-tinted-zen"
+name = "base16-tinted-zen"
+themes-dir = "output"
+hook = "cp \"$TINTY_THEME_FILE_PATH\" ~/.var/app/app.zen_browser.zen/.zen/$(ls ~/.var/app/app.zen_browser.zen/.zen | grep -i 'Default' | head -1)/chrome/userChrome.css"
+supported-systems = ["base16"]
+```
+
+> **Multiple profiles:** The glob above picks the first match alphabetically. If you have more than one profile (e.g. `Default (release)` and `Default Profile`), hard-code the directory name instead — check `about:profiles` to confirm which one is active.
 
 ### 4. Apply a scheme
 
@@ -77,7 +94,7 @@ Restart Zen Browser (or reload the userChrome by navigating to `about:profiles` 
 
 - Dark Base16 schemes are the primary use case and are well-tested. Light schemes will apply correctly (base00 being a light background is handled naturally) but are less thoroughly validated.
 - Zen's accent-derived variables (`--zen-colors-primary`, `--zen-colors-secondary`, etc.) are explicitly overridden here so that the full Base16 palette drives the UI rather than Zen's `color-mix()` derivations from a single accent color.
-- The hook command above uses a glob to find the default profile; if you have multiple profiles you may want to hard-code the path.
+- Profile directory names use a capital `D` in `Default` on Linux, which matters because the filesystem is case-sensitive — the hooks above use `grep -i` to match either casing.
 
 ## Team
 
