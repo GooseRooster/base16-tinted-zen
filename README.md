@@ -2,6 +2,10 @@
 
 A [tinty](https://github.com/tinted-theming/tinty) template that maps a Base16 color scheme to [Zen Browser](https://zen-browser.app/)'s UI, replacing the browser chrome colors via `userChrome.css`.
 
+
+<img width="2414" height="1328" alt="image" src="https://github.com/user-attachments/assets/1af6146d-c202-4ce1-bacf-8acff6c32920" />
+
+
 ## How it works
 
 Zen Browser (Firefox-based) exposes a set of `--zen-*` CSS custom properties that control its sidebar, toolbar, panels, and accent system, plus inherits Firefox's standard toolbar variables. This template generates a `userChrome.css` file that overrides those variables with colors drawn from the active Base16 scheme.
