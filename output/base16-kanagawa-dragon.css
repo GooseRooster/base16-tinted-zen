@@ -1,0 +1,50 @@
+/* Kanagawa Dragon by Stefan Weigl-Bosker (https://github.com/sweiglbosker), Tommaso Laurenzi (https://github.com/rebelot/kanagawa.nvim) */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #8ba4b0;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #8ba4b0;
+    --zen-colors-secondary:               #393836;
+    --zen-colors-tertiary:                #282727;
+    --zen-colors-hover-bg:                #393836;
+    --zen-colors-primary-foreground:      #c5c9c5;
+    --zen-colors-border:                  #393836;
+    --zen-colors-border-contrast:         #737c73;
+    --zen-colors-input-bg:                #282727;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #181616;
+    --zen-dialog-background:              #282727;
+    --zen-branding-dark:                  #181616;
+    --zen-branding-paper:                 #c5c9c5;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #282727;
+    --zen-toolbar-element-bg-hover:       #393836;
+    --zen-urlbar-background:              #282727;
+    --zen-input-border-color:             rgb(57, 56, 54);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #8ba4b0;
+    --zen-sidebar-themed-icon-fill:       #c5c9c5;
+    --zen-appcontent-border:              1px solid #393836;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #282727;
+    --toolbar-color:                      #c5c9c5;
+    --toolbarbutton-icon-fill:            #c5c9c5;
+    --toolbarbutton-hover-background:     #393836;
+    --toolbarbutton-active-background:    #625e5a;
+    --urlbar-box-bgcolor:                 #282727;
+    --urlbar-box-hover-bgcolor:           #393836;
+    --urlbar-box-focus-bgcolor:           #282727;
+    --urlbar-box-text-color:              #c5c9c5;
+    --tab-selected-bgcolor:               #393836;
+    --tab-selected-color:                 #c5c9c5;
+    --arrowpanel-background:              #282727;
+    --arrowpanel-color:                   #c5c9c5;
+    --arrowpanel-border-color:            #393836;
+}

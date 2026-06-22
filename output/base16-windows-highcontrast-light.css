@@ -1,0 +1,50 @@
+/* Windows High Contrast Light by Fergus Collins (https://github.com/ferguscollins) */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #000080;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #000080;
+    --zen-colors-secondary:               #d4d4d4;
+    --zen-colors-tertiary:                #e8e8e8;
+    --zen-colors-hover-bg:                #d4d4d4;
+    --zen-colors-primary-foreground:      #545454;
+    --zen-colors-border:                  #d4d4d4;
+    --zen-colors-border-contrast:         #7e7e7e;
+    --zen-colors-input-bg:                #e8e8e8;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #fcfcfc;
+    --zen-dialog-background:              #e8e8e8;
+    --zen-branding-dark:                  #fcfcfc;
+    --zen-branding-paper:                 #000000;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #e8e8e8;
+    --zen-toolbar-element-bg-hover:       #d4d4d4;
+    --zen-urlbar-background:              #e8e8e8;
+    --zen-input-border-color:             rgb(212, 212, 212);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #000080;
+    --zen-sidebar-themed-icon-fill:       #545454;
+    --zen-appcontent-border:              1px solid #d4d4d4;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #e8e8e8;
+    --toolbar-color:                      #545454;
+    --toolbarbutton-icon-fill:            #545454;
+    --toolbarbutton-hover-background:     #d4d4d4;
+    --toolbarbutton-active-background:    #c0c0c0;
+    --urlbar-box-bgcolor:                 #e8e8e8;
+    --urlbar-box-hover-bgcolor:           #d4d4d4;
+    --urlbar-box-focus-bgcolor:           #e8e8e8;
+    --urlbar-box-text-color:              #545454;
+    --tab-selected-bgcolor:               #d4d4d4;
+    --tab-selected-color:                 #545454;
+    --arrowpanel-background:              #e8e8e8;
+    --arrowpanel-color:                   #545454;
+    --arrowpanel-border-color:            #d4d4d4;
+}

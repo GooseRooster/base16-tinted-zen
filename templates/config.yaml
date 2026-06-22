@@ -1,0 +1,4 @@
+base16-tinted-zen:
+  filename: output/base16-{{ scheme-slug }}.css
+  supported-systems: [base16]
+  description: "Zen Browser userChrome.css color theme generated from a Base16 scheme"

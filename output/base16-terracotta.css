@@ -1,0 +1,50 @@
+/* Terracotta by Alexander Rossell Hayes (https://github.com/rossellhayes) */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #625574;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #625574;
+    --zen-colors-secondary:               #d0c1bb;
+    --zen-colors-tertiary:                #dfd6d1;
+    --zen-colors-hover-bg:                #d0c1bb;
+    --zen-colors-primary-foreground:      #473731;
+    --zen-colors-border:                  #d0c1bb;
+    --zen-colors-border-contrast:         #59453d;
+    --zen-colors-input-bg:                #dfd6d1;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #efeae8;
+    --zen-dialog-background:              #dfd6d1;
+    --zen-branding-dark:                  #efeae8;
+    --zen-branding-paper:                 #241c19;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #dfd6d1;
+    --zen-toolbar-element-bg-hover:       #d0c1bb;
+    --zen-urlbar-background:              #dfd6d1;
+    --zen-input-border-color:             rgb(208, 193, 187);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #625574;
+    --zen-sidebar-themed-icon-fill:       #473731;
+    --zen-appcontent-border:              1px solid #d0c1bb;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #dfd6d1;
+    --toolbar-color:                      #473731;
+    --toolbarbutton-icon-fill:            #473731;
+    --toolbarbutton-hover-background:     #d0c1bb;
+    --toolbarbutton-active-background:    #c0aca4;
+    --urlbar-box-bgcolor:                 #dfd6d1;
+    --urlbar-box-hover-bgcolor:           #d0c1bb;
+    --urlbar-box-focus-bgcolor:           #dfd6d1;
+    --urlbar-box-text-color:              #473731;
+    --tab-selected-bgcolor:               #d0c1bb;
+    --tab-selected-color:                 #473731;
+    --arrowpanel-background:              #dfd6d1;
+    --arrowpanel-color:                   #473731;
+    --arrowpanel-border-color:            #d0c1bb;
+}

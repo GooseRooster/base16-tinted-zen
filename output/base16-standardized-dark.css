@@ -1,0 +1,50 @@
+/* standardized-dark by ali (https://github.com/ali-githb/base16-standardized-scheme) */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #00a3f2;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #00a3f2;
+    --zen-colors-secondary:               #555555;
+    --zen-colors-tertiary:                #303030;
+    --zen-colors-hover-bg:                #555555;
+    --zen-colors-primary-foreground:      #c0c0c0;
+    --zen-colors-border:                  #555555;
+    --zen-colors-border-contrast:         #898989;
+    --zen-colors-input-bg:                #303030;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #222222;
+    --zen-dialog-background:              #303030;
+    --zen-branding-dark:                  #222222;
+    --zen-branding-paper:                 #ffffff;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #303030;
+    --zen-toolbar-element-bg-hover:       #555555;
+    --zen-urlbar-background:              #303030;
+    --zen-input-border-color:             rgb(85, 85, 85);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #00a3f2;
+    --zen-sidebar-themed-icon-fill:       #c0c0c0;
+    --zen-appcontent-border:              1px solid #555555;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #303030;
+    --toolbar-color:                      #c0c0c0;
+    --toolbarbutton-icon-fill:            #c0c0c0;
+    --toolbarbutton-hover-background:     #555555;
+    --toolbarbutton-active-background:    #898989;
+    --urlbar-box-bgcolor:                 #303030;
+    --urlbar-box-hover-bgcolor:           #555555;
+    --urlbar-box-focus-bgcolor:           #303030;
+    --urlbar-box-text-color:              #c0c0c0;
+    --tab-selected-bgcolor:               #555555;
+    --tab-selected-color:                 #c0c0c0;
+    --arrowpanel-background:              #303030;
+    --arrowpanel-color:                   #c0c0c0;
+    --arrowpanel-border-color:            #555555;
+}

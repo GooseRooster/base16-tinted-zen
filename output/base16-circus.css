@@ -1,0 +1,50 @@
+/* Circus by Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12) */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #639ee4;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #639ee4;
+    --zen-colors-secondary:               #303030;
+    --zen-colors-tertiary:                #202020;
+    --zen-colors-hover-bg:                #303030;
+    --zen-colors-primary-foreground:      #a7a7a7;
+    --zen-colors-border:                  #303030;
+    --zen-colors-border-contrast:         #505050;
+    --zen-colors-input-bg:                #202020;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #191919;
+    --zen-dialog-background:              #202020;
+    --zen-branding-dark:                  #191919;
+    --zen-branding-paper:                 #ffffff;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #202020;
+    --zen-toolbar-element-bg-hover:       #303030;
+    --zen-urlbar-background:              #202020;
+    --zen-input-border-color:             rgb(48, 48, 48);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #639ee4;
+    --zen-sidebar-themed-icon-fill:       #a7a7a7;
+    --zen-appcontent-border:              1px solid #303030;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #202020;
+    --toolbar-color:                      #a7a7a7;
+    --toolbarbutton-icon-fill:            #a7a7a7;
+    --toolbarbutton-hover-background:     #303030;
+    --toolbarbutton-active-background:    #5f5a60;
+    --urlbar-box-bgcolor:                 #202020;
+    --urlbar-box-hover-bgcolor:           #303030;
+    --urlbar-box-focus-bgcolor:           #202020;
+    --urlbar-box-text-color:              #a7a7a7;
+    --tab-selected-bgcolor:               #303030;
+    --tab-selected-color:                 #a7a7a7;
+    --arrowpanel-background:              #202020;
+    --arrowpanel-color:                   #a7a7a7;
+    --arrowpanel-border-color:            #303030;
+}

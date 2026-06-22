@@ -1,0 +1,50 @@
+/* Paraiso by Jan T. Sott */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #06b6ef;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #06b6ef;
+    --zen-colors-secondary:               #4f424c;
+    --zen-colors-tertiary:                #41323f;
+    --zen-colors-hover-bg:                #4f424c;
+    --zen-colors-primary-foreground:      #a39e9b;
+    --zen-colors-border:                  #4f424c;
+    --zen-colors-border-contrast:         #8d8687;
+    --zen-colors-input-bg:                #41323f;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #2f1e2e;
+    --zen-dialog-background:              #41323f;
+    --zen-branding-dark:                  #2f1e2e;
+    --zen-branding-paper:                 #e7e9db;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #41323f;
+    --zen-toolbar-element-bg-hover:       #4f424c;
+    --zen-urlbar-background:              #41323f;
+    --zen-input-border-color:             rgb(79, 66, 76);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #06b6ef;
+    --zen-sidebar-themed-icon-fill:       #a39e9b;
+    --zen-appcontent-border:              1px solid #4f424c;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #41323f;
+    --toolbar-color:                      #a39e9b;
+    --toolbarbutton-icon-fill:            #a39e9b;
+    --toolbarbutton-hover-background:     #4f424c;
+    --toolbarbutton-active-background:    #776e71;
+    --urlbar-box-bgcolor:                 #41323f;
+    --urlbar-box-hover-bgcolor:           #4f424c;
+    --urlbar-box-focus-bgcolor:           #41323f;
+    --urlbar-box-text-color:              #a39e9b;
+    --tab-selected-bgcolor:               #4f424c;
+    --tab-selected-color:                 #a39e9b;
+    --arrowpanel-background:              #41323f;
+    --arrowpanel-color:                   #a39e9b;
+    --arrowpanel-border-color:            #4f424c;
+}

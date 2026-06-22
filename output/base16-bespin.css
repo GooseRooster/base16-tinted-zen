@@ -1,0 +1,50 @@
+/* Bespin by Jan T. Sott */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #5ea6ea;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #5ea6ea;
+    --zen-colors-secondary:               #5e5d5c;
+    --zen-colors-tertiary:                #36312e;
+    --zen-colors-hover-bg:                #5e5d5c;
+    --zen-colors-primary-foreground:      #8a8986;
+    --zen-colors-border:                  #5e5d5c;
+    --zen-colors-border-contrast:         #797977;
+    --zen-colors-input-bg:                #36312e;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #28211c;
+    --zen-dialog-background:              #36312e;
+    --zen-branding-dark:                  #28211c;
+    --zen-branding-paper:                 #baae9e;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #36312e;
+    --zen-toolbar-element-bg-hover:       #5e5d5c;
+    --zen-urlbar-background:              #36312e;
+    --zen-input-border-color:             rgb(94, 93, 92);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #5ea6ea;
+    --zen-sidebar-themed-icon-fill:       #8a8986;
+    --zen-appcontent-border:              1px solid #5e5d5c;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #36312e;
+    --toolbar-color:                      #8a8986;
+    --toolbarbutton-icon-fill:            #8a8986;
+    --toolbarbutton-hover-background:     #5e5d5c;
+    --toolbarbutton-active-background:    #666666;
+    --urlbar-box-bgcolor:                 #36312e;
+    --urlbar-box-hover-bgcolor:           #5e5d5c;
+    --urlbar-box-focus-bgcolor:           #36312e;
+    --urlbar-box-text-color:              #8a8986;
+    --tab-selected-bgcolor:               #5e5d5c;
+    --tab-selected-color:                 #8a8986;
+    --arrowpanel-background:              #36312e;
+    --arrowpanel-color:                   #8a8986;
+    --arrowpanel-border-color:            #5e5d5c;
+}

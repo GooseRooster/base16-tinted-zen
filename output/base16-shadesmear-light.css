@@ -1,0 +1,50 @@
+/* ShadeSmear Light by Kyle Giammarco (http://kyle.giammar.co) */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #376388;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #376388;
+    --zen-colors-secondary:               #c0c0c0;
+    --zen-colors-tertiary:                #e4e4e4;
+    --zen-colors-hover-bg:                #c0c0c0;
+    --zen-colors-primary-foreground:      #232323;
+    --zen-colors-border:                  #c0c0c0;
+    --zen-colors-border-contrast:         #1c1c1c;
+    --zen-colors-input-bg:                #e4e4e4;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #dbdbdb;
+    --zen-dialog-background:              #e4e4e4;
+    --zen-branding-dark:                  #dbdbdb;
+    --zen-branding-paper:                 #e4e4e4;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #e4e4e4;
+    --zen-toolbar-element-bg-hover:       #c0c0c0;
+    --zen-urlbar-background:              #e4e4e4;
+    --zen-input-border-color:             rgb(192, 192, 192);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #376388;
+    --zen-sidebar-themed-icon-fill:       #232323;
+    --zen-appcontent-border:              1px solid #c0c0c0;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #e4e4e4;
+    --toolbar-color:                      #232323;
+    --toolbarbutton-icon-fill:            #232323;
+    --toolbarbutton-hover-background:     #c0c0c0;
+    --toolbarbutton-active-background:    #4e4e4e;
+    --urlbar-box-bgcolor:                 #e4e4e4;
+    --urlbar-box-hover-bgcolor:           #c0c0c0;
+    --urlbar-box-focus-bgcolor:           #e4e4e4;
+    --urlbar-box-text-color:              #232323;
+    --tab-selected-bgcolor:               #c0c0c0;
+    --tab-selected-color:                 #232323;
+    --arrowpanel-background:              #e4e4e4;
+    --arrowpanel-color:                   #232323;
+    --arrowpanel-border-color:            #c0c0c0;
+}

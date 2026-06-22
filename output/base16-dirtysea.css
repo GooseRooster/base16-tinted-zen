@@ -1,0 +1,50 @@
+/* dirtysea by Kahlil (Kal) Hodgson */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #007300;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #007300;
+    --zen-colors-secondary:               #d0d0d0;
+    --zen-colors-tertiary:                #d0dad0;
+    --zen-colors-hover-bg:                #d0d0d0;
+    --zen-colors-primary-foreground:      #000000;
+    --zen-colors-border:                  #d0d0d0;
+    --zen-colors-border-contrast:         #202020;
+    --zen-colors-input-bg:                #d0dad0;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #e0e0e0;
+    --zen-dialog-background:              #d0dad0;
+    --zen-branding-dark:                  #e0e0e0;
+    --zen-branding-paper:                 #c4d9c4;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #d0dad0;
+    --zen-toolbar-element-bg-hover:       #d0d0d0;
+    --zen-urlbar-background:              #d0dad0;
+    --zen-input-border-color:             rgb(208, 208, 208);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #007300;
+    --zen-sidebar-themed-icon-fill:       #000000;
+    --zen-appcontent-border:              1px solid #d0d0d0;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #d0dad0;
+    --toolbar-color:                      #000000;
+    --toolbarbutton-icon-fill:            #000000;
+    --toolbarbutton-hover-background:     #d0d0d0;
+    --toolbarbutton-active-background:    #707070;
+    --urlbar-box-bgcolor:                 #d0dad0;
+    --urlbar-box-hover-bgcolor:           #d0d0d0;
+    --urlbar-box-focus-bgcolor:           #d0dad0;
+    --urlbar-box-text-color:              #000000;
+    --tab-selected-bgcolor:               #d0d0d0;
+    --tab-selected-color:                 #000000;
+    --arrowpanel-background:              #d0dad0;
+    --arrowpanel-color:                   #000000;
+    --arrowpanel-border-color:            #d0d0d0;
+}

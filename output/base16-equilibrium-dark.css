@@ -1,0 +1,50 @@
+/* Equilibrium Dark by Carlo Abelli */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #008dd1;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #008dd1;
+    --zen-colors-secondary:               #22262d;
+    --zen-colors-tertiary:                #181c22;
+    --zen-colors-hover-bg:                #22262d;
+    --zen-colors-primary-foreground:      #afaba2;
+    --zen-colors-border:                  #22262d;
+    --zen-colors-border-contrast:         #949088;
+    --zen-colors-input-bg:                #181c22;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #0c1118;
+    --zen-dialog-background:              #181c22;
+    --zen-branding-dark:                  #0c1118;
+    --zen-branding-paper:                 #e7e2d9;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #181c22;
+    --zen-toolbar-element-bg-hover:       #22262d;
+    --zen-urlbar-background:              #181c22;
+    --zen-input-border-color:             rgb(34, 38, 45);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #008dd1;
+    --zen-sidebar-themed-icon-fill:       #afaba2;
+    --zen-appcontent-border:              1px solid #22262d;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #181c22;
+    --toolbar-color:                      #afaba2;
+    --toolbarbutton-icon-fill:            #afaba2;
+    --toolbarbutton-hover-background:     #22262d;
+    --toolbarbutton-active-background:    #7b776e;
+    --urlbar-box-bgcolor:                 #181c22;
+    --urlbar-box-hover-bgcolor:           #22262d;
+    --urlbar-box-focus-bgcolor:           #181c22;
+    --urlbar-box-text-color:              #afaba2;
+    --tab-selected-bgcolor:               #22262d;
+    --tab-selected-color:                 #afaba2;
+    --arrowpanel-background:              #181c22;
+    --arrowpanel-color:                   #afaba2;
+    --arrowpanel-border-color:            #22262d;
+}

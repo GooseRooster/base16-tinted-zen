@@ -1,0 +1,50 @@
+/* Gruvbox Material Dark, Hard by Mayush Kumar (https://github.com/MayushKumar), sainnhe (https://github.com/sainnhe/gruvbox-material-vscode) */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #7daea3;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #7daea3;
+    --zen-colors-secondary:               #504945;
+    --zen-colors-tertiary:                #2a2827;
+    --zen-colors-hover-bg:                #504945;
+    --zen-colors-primary-foreground:      #ddc7a1;
+    --zen-colors-border:                  #504945;
+    --zen-colors-border-contrast:         #bdae93;
+    --zen-colors-input-bg:                #2a2827;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #202020;
+    --zen-dialog-background:              #2a2827;
+    --zen-branding-dark:                  #202020;
+    --zen-branding-paper:                 #fbf1c7;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #2a2827;
+    --zen-toolbar-element-bg-hover:       #504945;
+    --zen-urlbar-background:              #2a2827;
+    --zen-input-border-color:             rgb(80, 73, 69);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #7daea3;
+    --zen-sidebar-themed-icon-fill:       #ddc7a1;
+    --zen-appcontent-border:              1px solid #504945;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #2a2827;
+    --toolbar-color:                      #ddc7a1;
+    --toolbarbutton-icon-fill:            #ddc7a1;
+    --toolbarbutton-hover-background:     #504945;
+    --toolbarbutton-active-background:    #5a524c;
+    --urlbar-box-bgcolor:                 #2a2827;
+    --urlbar-box-hover-bgcolor:           #504945;
+    --urlbar-box-focus-bgcolor:           #2a2827;
+    --urlbar-box-text-color:              #ddc7a1;
+    --tab-selected-bgcolor:               #504945;
+    --tab-selected-color:                 #ddc7a1;
+    --arrowpanel-background:              #2a2827;
+    --arrowpanel-color:                   #ddc7a1;
+    --arrowpanel-border-color:            #504945;
+}

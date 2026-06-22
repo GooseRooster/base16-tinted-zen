@@ -1,0 +1,50 @@
+/* Cupertino by Defman21 */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #0000ff;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #0000ff;
+    --zen-colors-secondary:               #c0c0c0;
+    --zen-colors-tertiary:                #c0c0c0;
+    --zen-colors-hover-bg:                #c0c0c0;
+    --zen-colors-primary-foreground:      #404040;
+    --zen-colors-border:                  #c0c0c0;
+    --zen-colors-border-contrast:         #808080;
+    --zen-colors-input-bg:                #c0c0c0;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #ffffff;
+    --zen-dialog-background:              #c0c0c0;
+    --zen-branding-dark:                  #ffffff;
+    --zen-branding-paper:                 #5e5e5e;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #c0c0c0;
+    --zen-toolbar-element-bg-hover:       #c0c0c0;
+    --zen-urlbar-background:              #c0c0c0;
+    --zen-input-border-color:             rgb(192, 192, 192);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #0000ff;
+    --zen-sidebar-themed-icon-fill:       #404040;
+    --zen-appcontent-border:              1px solid #c0c0c0;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #c0c0c0;
+    --toolbar-color:                      #404040;
+    --toolbarbutton-icon-fill:            #404040;
+    --toolbarbutton-hover-background:     #c0c0c0;
+    --toolbarbutton-active-background:    #808080;
+    --urlbar-box-bgcolor:                 #c0c0c0;
+    --urlbar-box-hover-bgcolor:           #c0c0c0;
+    --urlbar-box-focus-bgcolor:           #c0c0c0;
+    --urlbar-box-text-color:              #404040;
+    --tab-selected-bgcolor:               #c0c0c0;
+    --tab-selected-color:                 #404040;
+    --arrowpanel-background:              #c0c0c0;
+    --arrowpanel-color:                   #404040;
+    --arrowpanel-border-color:            #c0c0c0;
+}

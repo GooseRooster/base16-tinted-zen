@@ -1,0 +1,50 @@
+/* Horizon Terminal Light by Michaël Ball (http://github.com/michael-ball/) */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #26bbd9;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #26bbd9;
+    --zen-colors-secondary:               #f9cbbe;
+    --zen-colors-tertiary:                #fadad1;
+    --zen-colors-hover-bg:                #f9cbbe;
+    --zen-colors-primary-foreground:      #403c3d;
+    --zen-colors-border:                  #f9cbbe;
+    --zen-colors-border-contrast:         #948c8a;
+    --zen-colors-input-bg:                #fadad1;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #fdf0ed;
+    --zen-dialog-background:              #fadad1;
+    --zen-branding-dark:                  #fdf0ed;
+    --zen-branding-paper:                 #201c1d;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #fadad1;
+    --zen-toolbar-element-bg-hover:       #f9cbbe;
+    --zen-urlbar-background:              #fadad1;
+    --zen-input-border-color:             rgb(249, 203, 190);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #26bbd9;
+    --zen-sidebar-themed-icon-fill:       #403c3d;
+    --zen-appcontent-border:              1px solid #f9cbbe;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #fadad1;
+    --toolbar-color:                      #403c3d;
+    --toolbarbutton-icon-fill:            #403c3d;
+    --toolbarbutton-hover-background:     #f9cbbe;
+    --toolbarbutton-active-background:    #bdb3b1;
+    --urlbar-box-bgcolor:                 #fadad1;
+    --urlbar-box-hover-bgcolor:           #f9cbbe;
+    --urlbar-box-focus-bgcolor:           #fadad1;
+    --urlbar-box-text-color:              #403c3d;
+    --tab-selected-bgcolor:               #f9cbbe;
+    --tab-selected-color:                 #403c3d;
+    --arrowpanel-background:              #fadad1;
+    --arrowpanel-color:                   #403c3d;
+    --arrowpanel-border-color:            #f9cbbe;
+}

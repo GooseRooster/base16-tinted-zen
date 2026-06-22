@@ -1,0 +1,50 @@
+/* Tinta by Teshre */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #8a9ab0;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #8a9ab0;
+    --zen-colors-secondary:               #2c2c30;
+    --zen-colors-tertiary:                #202023;
+    --zen-colors-hover-bg:                #2c2c30;
+    --zen-colors-primary-foreground:      #d8d6d0;
+    --zen-colors-border:                  #2c2c30;
+    --zen-colors-border-contrast:         #9d9c9d;
+    --zen-colors-input-bg:                #202023;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #101012;
+    --zen-dialog-background:              #202023;
+    --zen-branding-dark:                  #101012;
+    --zen-branding-paper:                 #eeece6;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #202023;
+    --zen-toolbar-element-bg-hover:       #2c2c30;
+    --zen-urlbar-background:              #202023;
+    --zen-input-border-color:             rgb(44, 44, 48);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #8a9ab0;
+    --zen-sidebar-themed-icon-fill:       #d8d6d0;
+    --zen-appcontent-border:              1px solid #2c2c30;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #202023;
+    --toolbar-color:                      #d8d6d0;
+    --toolbarbutton-icon-fill:            #d8d6d0;
+    --toolbarbutton-hover-background:     #2c2c30;
+    --toolbarbutton-active-background:    #62626a;
+    --urlbar-box-bgcolor:                 #202023;
+    --urlbar-box-hover-bgcolor:           #2c2c30;
+    --urlbar-box-focus-bgcolor:           #202023;
+    --urlbar-box-text-color:              #d8d6d0;
+    --tab-selected-bgcolor:               #2c2c30;
+    --tab-selected-color:                 #d8d6d0;
+    --arrowpanel-background:              #202023;
+    --arrowpanel-color:                   #d8d6d0;
+    --arrowpanel-border-color:            #2c2c30;
+}

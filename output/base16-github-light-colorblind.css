@@ -1,0 +1,50 @@
+/* Github Light Colorblind by Tinted Theming (https://github.com/tinted-theming) */
+/* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
+
+:root {
+    /* --- Zen primary accent --- */
+    --zen-primary-color:                  #8250df;
+
+    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
+    --zen-colors-primary:                 #8250df;
+    --zen-colors-secondary:               #afb8c1;
+    --zen-colors-tertiary:                #f6f8fa;
+    --zen-colors-hover-bg:                #afb8c1;
+    --zen-colors-primary-foreground:      #424a53;
+    --zen-colors-border:                  #afb8c1;
+    --zen-colors-border-contrast:         #6e7781;
+    --zen-colors-input-bg:                #f6f8fa;
+
+    /* --- Backgrounds --- */
+    --zen-main-browser-background:        #ffffff;
+    --zen-dialog-background:              #f6f8fa;
+    --zen-branding-dark:                  #ffffff;
+    --zen-branding-paper:                 #24292f;
+
+    /* --- Toolbar --- */
+    --zen-toolbar-element-bg:             #f6f8fa;
+    --zen-toolbar-element-bg-hover:       #afb8c1;
+    --zen-urlbar-background:              #f6f8fa;
+    --zen-input-border-color:             rgb(175, 184, 193);
+
+    /* --- Sidebar --- */
+    --zen-sidebar-notification-bg:        #8250df;
+    --zen-sidebar-themed-icon-fill:       #424a53;
+    --zen-appcontent-border:              1px solid #afb8c1;
+
+    /* --- Firefox standard variables --- */
+    --toolbar-bgcolor:                    #f6f8fa;
+    --toolbar-color:                      #424a53;
+    --toolbarbutton-icon-fill:            #424a53;
+    --toolbarbutton-hover-background:     #afb8c1;
+    --toolbarbutton-active-background:    #8c959f;
+    --urlbar-box-bgcolor:                 #f6f8fa;
+    --urlbar-box-hover-bgcolor:           #afb8c1;
+    --urlbar-box-focus-bgcolor:           #f6f8fa;
+    --urlbar-box-text-color:              #424a53;
+    --tab-selected-bgcolor:               #afb8c1;
+    --tab-selected-color:                 #424a53;
+    --arrowpanel-background:              #f6f8fa;
+    --arrowpanel-color:                   #424a53;
+    --arrowpanel-border-color:            #afb8c1;
+}
