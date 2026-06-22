@@ -1,50 +1,225 @@
 /* Eva Dim by kjakapat (https://github.com/kjakapat) */
 /* base16-tinted-zen — https://github.com/GooseRooster/base16-tinted-zen */
 
-:root {
-    /* --- Zen primary accent --- */
-    --zen-primary-color:                  #1ae1dc;
+* {
+    --base:       #2a3b4d;
+    --surface:    #3d566f;
+    --overlay:    #4b6988;
+    --muted:      #55799c;
+    --subtle:     #7e90a3;
+    --text:       #9fa2a6;
+    --bright:     #ffffff;
+    --secondary:  #9c6cd3;
+    --primary:    #1ae1dc;
+    --on-primary: #2a3b4d;
+}
 
-    /* --- Derived accent overrides (bypass Zen's color-mix derivations) --- */
-    --zen-colors-primary:                 #1ae1dc;
-    --zen-colors-secondary:               #4b6988;
-    --zen-colors-tertiary:                #3d566f;
-    --zen-colors-hover-bg:                #4b6988;
-    --zen-colors-primary-foreground:      #9fa2a6;
-    --zen-colors-border:                  #4b6988;
-    --zen-colors-border-contrast:         #7e90a3;
-    --zen-colors-input-bg:                #3d566f;
+:root {
+    /* --- Core Zen accent --- */
+    --zen-primary-color:                      var(--primary) !important;
+    --zen-colors-primary:                     var(--base) !important;
+    --zen-colors-secondary:                   var(--surface) !important;
+    --zen-colors-tertiary:                    var(--base) !important;
+    --zen-colors-hover-bg:                    var(--overlay) !important;
+    --zen-colors-primary-foreground:          var(--text) !important;
+    --zen-colors-border:                      var(--primary) !important;
+    --zen-colors-border-contrast:             var(--subtle) !important;
+    --zen-colors-input-bg:                    var(--surface) !important;
 
     /* --- Backgrounds --- */
-    --zen-main-browser-background:        #2a3b4d;
-    --zen-dialog-background:              #3d566f;
-    --zen-branding-dark:                  #2a3b4d;
-    --zen-branding-paper:                 #ffffff;
-
-    /* --- Toolbar --- */
-    --zen-toolbar-element-bg:             #3d566f;
-    --zen-toolbar-element-bg-hover:       #4b6988;
-    --zen-urlbar-background:              #3d566f;
-    --zen-input-border-color:             rgb(75, 105, 136);
+    --zen-main-browser-background:            var(--base) !important;
+    --zen-dialog-background:                  var(--overlay) !important;
+    --zen-themed-toolbar-bg:                  var(--base) !important;
+    --zen-themed-toolbar-bg-transparent:      transparent !important;
+    --zen-urlbar-background:                  var(--surface) !important;
+    --zen-branding-dark:                      var(--base) !important;
+    --zen-branding-paper:                     var(--bright) !important;
+    --zen-input-border-color:                 rgb(75, 105, 136) !important;
 
     /* --- Sidebar --- */
-    --zen-sidebar-notification-bg:        #1ae1dc;
-    --zen-sidebar-themed-icon-fill:       #9fa2a6;
-    --zen-appcontent-border:              1px solid #4b6988;
+    --zen-sidebar-notification-bg:            var(--primary) !important;
+    --zen-sidebar-themed-icon-fill:           var(--text) !important;
+    --zen-appcontent-border:                  1px solid var(--overlay) !important;
 
-    /* --- Firefox standard variables --- */
-    --toolbar-bgcolor:                    #3d566f;
-    --toolbar-color:                      #9fa2a6;
-    --toolbarbutton-icon-fill:            #9fa2a6;
-    --toolbarbutton-hover-background:     #4b6988;
-    --toolbarbutton-active-background:    #55799c;
-    --urlbar-box-bgcolor:                 #3d566f;
-    --urlbar-box-hover-bgcolor:           #4b6988;
-    --urlbar-box-focus-bgcolor:           #3d566f;
-    --urlbar-box-text-color:              #9fa2a6;
-    --tab-selected-bgcolor:               #4b6988;
-    --tab-selected-color:                 #9fa2a6;
-    --arrowpanel-background:              #3d566f;
-    --arrowpanel-color:                   #9fa2a6;
-    --arrowpanel-border-color:            #4b6988;
+    /* --- Toolbar / Firefox standard --- */
+    --toolbar-bgcolor:                        var(--base) !important;
+    --toolbar-color:                          var(--text) !important;
+    --toolbox-bgcolor-inactive:               var(--base) !important;
+    --toolbox-textcolor:                      var(--text) !important;
+    --toolbox-textcolor-inactive:             var(--text) !important;
+    --toolbarbutton-icon-fill:                var(--primary) !important;
+    --toolbarbutton-hover-background:         var(--overlay) !important;
+    --toolbarbutton-active-background:        var(--muted) !important;
+
+    /* --- URL bar --- */
+    --urlbar-box-bgcolor:                     var(--surface) !important;
+    --urlbar-box-hover-bgcolor:               var(--overlay) !important;
+    --urlbar-box-focus-bgcolor:               var(--surface) !important;
+    --urlbar-box-text-color:                  var(--text) !important;
+    --toolbar-field-color:                    var(--text) !important;
+    --toolbar-field-focus-color:              var(--text) !important;
+
+    /* --- Tabs --- */
+    --tab-selected-bgcolor:                   var(--overlay) !important;
+    --tab-selected-color:                     var(--text) !important;
+    --tab-selected-textcolor:                 var(--primary) !important;
+
+    /* --- Popups & menus --- */
+    --arrowpanel-background:                  var(--overlay) !important;
+    --arrowpanel-color:                       var(--text) !important;
+    --arrowpanel-border-color:                var(--overlay) !important;
+
+    /* --- Sidebar / LWT --- */
+    --sidebar-text-color:                     var(--text) !important;
+    --lwt-sidebar-text-color:                 var(--text) !important;
+    --lwt-sidebar-background-color:           var(--base) !important;
+    --lwt-text-color:                         var(--text) !important;
+
+    /* --- New tab page --- */
+    --newtab-background-color:                var(--overlay) !important;
+    --newtab-text-primary-color:              var(--text) !important;
+}
+
+/* --- Sidebar & layout --- */
+
+#navigator-toolbox,
+#zen-tabbox-wrapper,
+.sidebar-panel {
+    background-color: var(--base) !important;
+}
+
+#zen-sidebar-splitter {
+    background-color: var(--base) !important;
+    opacity: 1 !important;
+}
+
+.sidebar-placesTree {
+    background-color: var(--surface) !important;
+}
+
+#zen-workspaces-button {
+    background-color: var(--surface) !important;
+}
+
+#zen-appcontent-navbar-container {
+    background-color: var(--base) !important;
+}
+
+#TabsToolbar {
+    background-color: var(--base) !important;
+}
+
+hbox#titlebar {
+    background-color: var(--base) !important;
+}
+
+/* --- Navigation controls --- */
+
+#back-button .toolbarbutton-icon,
+#forward-button .toolbarbutton-icon,
+#reload-button .toolbarbutton-icon,
+#stop-button .toolbarbutton-icon,
+#PanelUI-menu-button .toolbarbutton-icon,
+#unified-extensions-button .toolbarbutton-icon,
+#nav-bar-overflow-button .toolbarbutton-icon,
+#zen-toggle-compact-mode .toolbarbutton-icon {
+    fill: var(--primary) !important;
+    color: var(--primary) !important;
+}
+
+#back-button[disabled] .toolbarbutton-icon,
+#forward-button[disabled] .toolbarbutton-icon {
+    opacity: 0.3 !important;
+}
+
+toolbar .toolbarbutton-1 {
+    &:not([disabled]) {
+        &:is([open], [checked]) > :is(
+            .toolbarbutton-icon,
+            .toolbarbutton-text,
+            .toolbarbutton-badge-stack
+        ) {
+            fill: var(--base);
+        }
+    }
+}
+
+toolbarbutton#tabs-newtab-button {
+    color: var(--text) !important;
+}
+
+/* --- Tabs --- */
+
+.tab-text {
+    color: var(--text);
+}
+
+.tab-background[selected=""] {
+    background: var(--overlay) !important;
+}
+
+/* --- URL bar --- */
+
+#urlbar-input {
+    color: var(--text) !important;
+}
+
+#urlbar-input::selection {
+    background-color: var(--primary) !important;
+    color: var(--on-primary) !important;
+}
+
+.urlbar-background,
+#urlbar-input-container {
+    background-color: var(--base) !important;
+}
+
+.urlbarView-url {
+    color: var(--primary) !important;
+}
+
+.urlbarView-favicon {
+    background-color: var(--base) !important;
+}
+
+#urlbar-results {
+    background-color: var(--overlay) !important;
+    color: var(--text) !important;
+}
+
+.urlbarView-row:not([selected]) :is(.urlbarView-title, .urlbarView-action) {
+    color: var(--text) !important;
+}
+
+/* --- UI components --- */
+
+.content-shortcuts {
+    background-color: var(--surface) !important;
+    border-color: var(--secondary) !important;
+}
+
+#zenEditBookmarkPanelFaviconContainer {
+    background: var(--base) !important;
+}
+
+#zen-toast-container {
+    color: var(--primary) !important;
+}
+
+#PanelUI-menu-button[open] .toolbarbutton-icon {
+    fill: var(--primary) !important;
+}
+
+#permissions-granted-icon {
+    color: var(--base) !important;
+}
+
+/* --- Workspace indicator --- */
+
+.zen-current-workspace-indicator-name {
+    color: var(--text);
+}
+
+.zen-current-workspace-indicator-icon {
+    fill: var(--text) !important;
 }
