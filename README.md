@@ -1,10 +1,12 @@
-# base16-tinted-zen
+# tinted-zen
 
 A [tinty](https://github.com/tinted-theming/tinty) template that maps a Base16 color scheme to [Zen Browser](https://zen-browser.app/)'s UI, replacing the browser chrome colors via `userChrome.css`.
 
 
 <img width="2414" height="1328" alt="image" src="https://github.com/user-attachments/assets/1af6146d-c202-4ce1-bacf-8acff6c32920" />
 
+
+## NOTE: Currently only supports base16. Other schemas to come soon.
 
 ## How it works
 
